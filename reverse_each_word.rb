@@ -8,7 +8,7 @@ string.split(" ").collect do |str|
  str.reverse
 end
 
-
+end
   
 end
  
