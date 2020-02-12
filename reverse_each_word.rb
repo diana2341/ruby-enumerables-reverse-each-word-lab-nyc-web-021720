@@ -3,9 +3,10 @@ def reverse_each_word(sentence)
   sentences=sentence.split(" ")
 sentences.collect do |s|
   new=s.reverse
-  new.join("")
+  new.join(" ")
   end
   new
 end
+ 
   
  
