@@ -5,7 +5,8 @@ def reverse_each_word(sentence)
 #new.join(" ")
   def reverse_each_word(string)
 string.split(" ").collect do |str|
- str.reverse.join(" ")
+ s=str.reverse
+ s.join(" ")
 end
 end
 reverse_each_word(string)
