@@ -8,8 +8,7 @@ string.split(" ").collect do |str|
  str.reverse
 end
 end
-reverse_each_word(string)
-  
+
   
 end
  
