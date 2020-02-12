@@ -5,7 +5,7 @@ new=sentences.collect do |s|
   s.reverse
   new.join("")
   end
-  new
+  
 end
  
   
