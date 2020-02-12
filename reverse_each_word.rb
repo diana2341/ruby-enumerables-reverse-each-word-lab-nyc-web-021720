@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
-  
+    sentences=sentence.split(" ")
+
   new=[]
-  sentences=sentence.split(" ")
 new = sentences.collect do |s|
   s.reverse
   new.join("")
