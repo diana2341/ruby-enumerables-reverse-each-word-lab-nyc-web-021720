@@ -4,7 +4,7 @@ new=[]
 new = sentences.collect{ |s|s.reverse}
   
   
-  end
+  
   
 end
  
