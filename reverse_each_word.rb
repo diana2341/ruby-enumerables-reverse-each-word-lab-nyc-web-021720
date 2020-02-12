@@ -1,5 +1,6 @@
 def reverse_each_word(sentence)
-sentence.collect do |s|
+  sentences=sentence.split(" ")
+sentences.collect do |s|
   s.reverse 
   end
 end
